@@ -19,7 +19,7 @@ const Portfolio = () => {
           <h3>Mismatched-Social Media Website</h3>
           <div className="portfolio__item-cta">
           <a href="https://github.com/riyagupta2011/SocialMediaWebsite" className='btn'  target='_blank'>Github</a>
-          <a href="https://github.com/riyagupta2011/SocialMediaWebsite" className='btn btn-primary' target='_blank'>Live Demo</a>
+          <a href="https://mismatchedsocial.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
        

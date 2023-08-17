@@ -165,3 +165,21 @@ gap:1.2rem;
     right:0;
 
 }
+/*  ==========MEDIA QUERIES (MEDIUM DEVICES) ========*/
+@media screen and (max-width:1024px)
+{
+   .i{
+    height:100vh;
+   }
+}
+@media screen and (max-width:708px)
+{
+   .i-right{
+    
+       display:none;
+        
+    }
+    
+   
+}
+
