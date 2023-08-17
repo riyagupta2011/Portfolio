@@ -15,7 +15,7 @@ header{
 margin-top:2.5rem;
 display:flex;
 gap:1.2rem;
-justify-content: center;
+
 }
 /* =========SOCIALS=====*/
 
@@ -83,3 +83,85 @@ justify-content: center;
     }
 }
 
+.i{
+    display:flex;
+    height:100vh;
+    
+}
+.i-left
+{
+    flex:1;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.i-right
+{
+    flex:1;
+   position: relative;
+}
+.i-left-wrapper
+{
+   padding: 50px; 
+   height:50%;
+   
+   display:flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.i-intro
+{
+    font-size: 30px;
+    font-weight:300;
+}
+.i-name{
+    font-size:60px;
+}
+.i-title
+{
+    height:50px;
+    overflow: hidden;
+}
+.i-title-wrapper
+{
+   height:100%;
+   animation: move 10s ease-in-out infinite alternate;
+}
+@keyframes move{
+    50%{
+        transform:translateY(-50px);
+    }
+    50%{
+        transform:translateY(-100px);
+    }
+}
+
+
+.i-title-item
+{
+    height:50px;
+    font-size: 30px;
+    font-weight: bold;
+    color:var(--color-bg-variant);
+    
+    display:flex;
+    align-items: center;
+}
+.i-img
+{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    position:absolute ;
+}
+.i-bg
+{
+    clip-path: polygon(100% 0%, 100% 49%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    background-color:var(--color-bg-variant);
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    right:0;
+
+}
